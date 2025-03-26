@@ -1,0 +1,2395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{26b76c2b-a74f-04d8-b2ee-5dea432b0e68}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2022_3_15;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;BAKERY_INCLUDED;BAKERY_NOREIMPORT;MODULAR_3D_TEXT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ShopButtonManager.cs" />
+     <Compile Include="Assets\02.Scripts\System\UI\TutorialUI.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SwitchManager.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Orientation.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationContext.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\ICollisionHandler.cs" />
+     <Compile Include="Assets\_Issue\RMBR-58\Scripts\ButtonLight.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Rendering\GraphicsManager.cs" />
+     <Compile Include="Assets\_Issue\RMBR-13\Scripts\Boss FSM.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\ITriangulatable.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Fracture.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationPoint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepConstraint.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\Scripts\WallCutter.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationMode.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\FlamethrowerWeapon.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle2\JoyStickState.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\DissolveControl.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_Trail.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\Polygon.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle2\AnswerBar.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicArcsAndColumns.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationLanguageEditor.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle2\MonitorWall.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\scripts\ObjectSwapRandom.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ModeSelectorEditor.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Framework\Triangulator.cs" />
+     <Compile Include="Assets\_Issue\RMBR-56\ButtonManager.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\WeaponSelector.cs" />
+     <Compile Include="Assets\Sci-Fi Base\Scripts\Rotator.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\ParticleGroupEmitter.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerTextEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\TimerBarEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedObject.cs" />
+     <Compile Include="Assets\_Old\KSA\Scripts\Impact.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\PuzzleManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input\ControllerPreset.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\GrenadeWeapon.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizedObject.cs" />
+     <Compile Include="Assets\_Issue\022\Script\EnemyFSM.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\HUD\FeedNotification.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicExplodingGoblin.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SwitchManagerEditor.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Credits\CreditsPreset.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\MeshData.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SliderManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\HorizontalSelectorEditor.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\02.Scripts\Night\WeaponInven.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\UIPopup.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SettingsElementEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ModalWindowManagerEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Events\HotkeyEventEditor.cs" />
+     <Compile Include="Assets\02.Scripts\System\SoundManager.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\LocalRotatorByWeaponShooting.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Achievements\AchievementManagerEditor.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\Hands.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\RigidbodiesForceField.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\_Old\KSA\Scripts\DoorSpawner.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\Weapon.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\RadialMover.cs" />
+     <Compile Include="Assets\02.Scripts\System\UI\WristSettingUI.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SettingsElement.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\RectDepth.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Core\MenuManager.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\WeaponTestArmory.cs" />
+     <Compile Include="Assets\02.Scripts\System\SmoothMoveObject.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\AutofireRunner.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\TutorialPlayer.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\DamageMethod.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\ScreenTransitionManager.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\ConcaveColliderInterface.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\ImageFading.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Misc\LayoutGroupFix.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\CollisionPlacer.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\ParticleGroupPlayer.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input\SliderInputHandler.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\ObjectPullManager.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\AutoFire.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\HittableSurface.cs" />
+     <Compile Include="Assets\_Issue\022\Script\MovementTransform.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle4\SafeIndexManager.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\Wall.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\IHittable.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerColorChanger.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationTable.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Panels\ChapterIdentifier.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\scripts\SetScale.cs" />
+     <Compile Include="Assets\02.Scripts\Night\NightWaveManager.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Framework\Intersector.cs" />
+     <Compile Include="Assets\02.Scripts\System\VisionFollower.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SocialsWidgetEditor.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Rendering\UIGradientEditor.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\RandomProperty.cs" />
+     <Compile Include="Assets\_Issue\RMBR-13\Scripts\Boss Projectile.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle5\PlayerControl.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\AutoAim.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationSettingsEditor.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\Projectile.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle4\SecretSafe.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Samples\RuntimePlacementAndUpdates\RuntimePlacementExample.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\SlicerExtensions.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Panels\ChapterManagerEditor.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\AnswerCountCheck.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\Spinner.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Scripts\OppyCharacterController.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\MemoryObject.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\Shotgun.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\HUD\QuestItem.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\HomeButtonIconHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\_Issue\007\SpawnBall.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationLanguage.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\ScreenChanger.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\Cursor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedChunk.cs" />
+     <Compile Include="Assets\DyingLightController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationSettings.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\Scripts\ExplosionForce.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Scripts\OppyLightGlow.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\PasswordCountCheck.cs" />
+     <Compile Include="Assets\02.Scripts\System\SceneDataLoader.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Player\WristWatch.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\IBlinder.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\LockData.cs" />
+     <Compile Include="Assets\_Old\KSA\Scripts\SoftParent.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\Scripts\AutoJointCreator.cs" />
+     <Compile Include="Assets\02.Scripts\System\MoveInput.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Rect2D.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManager.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Slicer.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle4\DirectionDial.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\OVRPassthroughManager.cs" />
+     <Compile Include="Assets\02.Scripts\System\OVRSceneManagerAddons.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Point2DList.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input\ControllerManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input\InputNavigationLimiter.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_PropObject.cs" />
+     <Compile Include="Assets\_Issue\RMBR-56\SceneDataManager.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Point2D.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepBasin.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_Sequence.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ProgressBarEditor.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle2\NewJoyStickState.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SupportPlane.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_Propagator.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle5\KeyDetector.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\InputController.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Core\PauseMenuManagerEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\DelaunayTriangle.cs" />
+     <Compile Include="Assets\_Old\KSA\Scripts\CameraRig.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\DoubleBallProjectile.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\PanelButtonEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicCollidingSphere.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\PolygonGenerator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\Dropdown.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\WeaponChangeButton.cs" />
+     <Compile Include="Assets\_Issue\047\Glitch\GlitchFlickeringEffect.cs" />
+     <Compile Include="Assets\_Issue\014\Player.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Scripts\UI\DebugPanel.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\WeaponBase.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\WeaponData.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Misc\TextTimeCounter.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\MeshCombiner\Scripts\CombinedMesh.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweep.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\DecalsOnParticleCollision.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\InputFieldManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\SmoothMoveObjectAll.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\scripts\Resizer\ResizableObjectsList.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\ExplosionSource.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Framework\TextureRegion.cs" />
+     <Compile Include="Assets\_Issue\022\Script\EnemyMemoryPool.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\scripts\Resizer\FancyResizable.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\UISway.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\DamageData.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\TutorialBand.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\PointGenerator.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\LaserPointer.cs" />
+     <Compile Include="Assets\_Issue\022\Script\Status.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerText.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Core\PauseMenuManager.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturingUtilDieTimer.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Monster\SuicideFSM.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\Scripts\WallController.cs" />
+     <Compile Include="Assets\_Issue\047\Glitch\Scripts\CameraRendererSwitcher.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\Goggle.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input\ControllerPresetManager.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\SimpleDecal.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\ShotgunWeapon.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle4\DirectionDialManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Credits\CreditsSectionItem.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationManagerEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Panels\SettingsDescription.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SliderManagerEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\TriangulationUtil.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\UltimateFracturingFPS.cs" />
+     <Compile Include="Assets\_Old\KSA\Scripts\Mark.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\FlameCharacter\FlameController.cs" />
+     <Compile Include="Assets\02.Scripts\System\HapticManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\PanelButton.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonPoint.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\NotificationManagerEditor.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\UIImageSpriteSequence.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\WeaponData.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\ICustomActiveState.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\MeshExtention.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\Lightning.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_Propagation.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SettingsSubElement.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\WallDetector.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\MathUtil.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle5\PC.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ModeSelector.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\P2T.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\scripts\Resizer\FurnitureResizer.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\Laser.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\Pause.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle1\Door Lock Check.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\LobbyPlayer.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\ShinyImage.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\SmoothMoveObjectTarget.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\LaserSpawner.cs" />
+     <Compile Include="Assets\_Issue\047\Glitch\Scripts\CameraRendererSwitcher2.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerImageEditor.cs" />
+     <Compile Include="Assets\_Old\JMS\DoorOpen.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\TutorialDoor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\UIElementSound.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\Chip.cs" />
+     <Compile Include="Assets\_Issue\022\Script\EnemySpawnPoint.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SpaceTree.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Achievements\AchievementLibrary.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ModalWindowManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationTableWindow.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationAlgorithm.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\Snap\SnapInteractableObj.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\HUD\FeedNotificationEditor.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\FadeScreen.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\Grenade.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicGlobalFracturing.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\IAutoPlacer.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle5\KeyPadDoor.cs" />
+     <Compile Include="Assets\_Old\KSA\Scripts\InteractionObject.cs" />
+     <Compile Include="Assets\_Issue\014\BarrierManager.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle2\DiskRotater.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Rendering\GraphicsManagerEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Panels\SettingsDescriptionManager.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\BoxEffects.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\LocalRotator.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\SceneLoader.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\NewsSliderEditor.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Samples\RuntimePlacementAndUpdates\DragablePoint.cs" />
+     <Compile Include="Assets\02.Scripts\System\DialogManager.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepEdgeEvent.cs" />
+     <Compile Include="Assets\_Issue\022\Script\CoverFSM.cs" />
+     <Compile Include="Assets\_Issue\022\Script\MemoryPool.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizedObjectEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\SpotButtonImage.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Triangulate.cs" />
+     <Compile Include="Assets\02.Scripts\Night\WaveTest.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\InventoryWeapon.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerImage.cs" />
+     <Compile Include="Assets\_Issue\014\Bullet.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\AnswerSubmitBehavior.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonSet.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input\ControllerManagerEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\CanvasGroupAnimator.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\Snap\ResetObjectPos.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Achievements\AchievementItem.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\HUD\QuestItemEditor.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle5\KeyPadControll.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ShopButtonManagerEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Events\HotkeyEvent.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle5\TrashBin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\RotationAnimation.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\RendererFade.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Framework\Plane.cs" />
+     <Compile Include="Assets\_Issue\022\Script\EnemyProjectile.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\IWeapon.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Scripts\HeatDecalFade.cs" />
+     <Compile Include="Assets\02.Scripts\System\UI\Item.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\TrailRendererFixedUpdate.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ProgressBar.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerSplashScreen.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonUtil.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle1\AnswerCheck.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Split.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle4\Legacy_SafesHint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationConstraint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />
+     <Compile Include="Assets\02.Scripts\System\WristBand.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Scripts\MaterialChange.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Misc\LaunchURL.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\HUD\HUDManagerEditor.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle1\VRHeadSet.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\Snap\Puzzle3Manager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input\SelectorInputHandler.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle2\DiskPuzzleTimer.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_Utilities.cs" />
+     <Compile Include="Assets\02.Scripts\System\UI\WristWatchUI.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets\ConstrainedPointSet.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ButtonManager.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\DayOneManager.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\ButtonManagerEditor.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle5\KeyFeedback.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\ITargetContainer.cs" />
+     <Compile Include="Assets\02.Scripts\Night\NightGameSystem.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\WeaponCollection.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\RaycastHelper.cs" />
+     <Compile Include="Assets\02.Scripts\System\UI\WristInventoryUI.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\CrossBowTest\EnemyManager.cs" />
+     <Compile Include="Assets\_Issue\RMBR-58\Scripts\EndingEvent.cs" />
+     <Compile Include="Assets\02.Scripts\System\UI\InventorySocket.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Rendering\UIGradient.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\WeaponUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\NotificationManager.cs" />
+     <Compile Include="Assets\_Issue\RMBR-58\Scripts\LightController.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SmoothScrollbar.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Panels\PanelManager.cs" />
+     <Compile Include="Assets\_Issue\014\ChargeItem.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Nav Mesh\NavMeshComponents\ToolkitScripts\NavMeshAgentController.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\Pistol.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Core\MenuManagerEditor.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle4\Safes.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\DropdownEditor.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\RaycastProjectile.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\SlicedHull.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\DamageType.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerFontChanger.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\CrossBowTest\Arrow.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\ImagePulse.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation\UIFlareDissolve.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Achievements\AchievementManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationTableEditor.cs" />
+     <Compile Include="Assets\02.Scripts\System\ScriptSoundMatch.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\scripts\Resizer\FancyResizer.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_combiner.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\ChargeRifle.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\CrossBowTest\ArrowData.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\Floor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets\PointSet.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Core\ReachUIInternalTools.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Misc\ExitGame.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\SmoothPhysics.cs" />
+     <Compile Include="Assets\02.Scripts\System\GlobalEvent.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle1\SafeDial.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicExplodingFloor.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Framework\Line.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\02.Scripts\System\ButtonColliderMaker.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\TutorialMemo.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\CheckDynamicCollision.cs" />
+     <Compile Include="Assets\_Issue\047\Glitch\SwitchRenderer.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SliderInput.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepPointComparator.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\BulletBase.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\NewsSlider.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\ObjectPull.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_CableJoint.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\ICollisionIgnore.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle3\SnapInteractionAssets\Scripts\SnapInteractableVisuals.cs" />
+     <Compile Include="Assets\02.Scripts\Day2\Puzzle4\SevenSegment.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Events\PointerEvent.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\Scripts\OnHitEffectController.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationDebugContext.cs" />
+     <Compile Include="Assets\02.Scripts\Day1\Puzzle1\PasswordCheck.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerLogo.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\CrossBowTest\Enemy.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\SocialsWidget.cs" />
+     <Compile Include="Assets\_Issue\RMBR-58\Scripts\LightFlicker.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Panels\PanelManagerEditor.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\SmokeGrenade.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerAudioEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\TimerBar.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\CanvasManager.cs" />
+     <Compile Include="Assets\_Old\JMS\Lighter.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\BurnDoc\BurnDoc.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\RPG.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Framework\IntersectionResult.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input\ScrollbarInputHandler.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\Contour.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\EmptyWeapon.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\FixedBitArray3.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Editor Handlers\ReachUIEditorHandler.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts\TimeController.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\HorizontalSelector.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\WeaponTestUI.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Credits\CreditsManagerEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements\LobbyPlayerEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepDebugContext.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Credits\CreditsManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Panels\ChapterManager.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Managers\NewNightScene.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\FixedArray3.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Weapon\InvisibleObject.cs" />
+     <Compile Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Framework\Triangle.cs" />
+     <Compile Include="Assets\_Old\JMS\Script\CrossBowTest\ArrowUpgrader.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\GravityGunWeapon.cs" />
+     <Compile Include="Assets\02.Scripts\System\UI\CallUI.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts\GravityGunDistortion.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Credits\CreditsMentionItem.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\TutorialManager.cs" />
+     <Compile Include="Assets\02.Scripts\System\UI\TutorialImage.cs" />
+     <Compile Include="Assets\_Issue\RMBR-58\Scripts\DoorController.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerAudio.cs" />
+     <Compile Include="Assets\02.Scripts\Night\Managers\WaveInfoSO.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Nav Mesh\NavMeshComponents\ToolkitScripts\ResizeNavMesh.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization\LocalizationManager.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager\UIManagerEditor.cs" />
+     <Compile Include="Assets\Reach - Complete Sci-Fi UI\Scripts\HUD\HUDManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicCompoundObject.cs" />
+     <Compile Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Scripts\UI\SelectableText.cs" />
+     <Compile Include="Assets\02.Scripts\Tutorial\TutorialBox.cs" />
+     <Compile Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\ACC_Cable.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Text" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Fusion" />
+     <Folder Include="Assets\Sci-Fi Base\Scenes\Scene_2_HDRP" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Others" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\Misc" />
+     <Folder Include="Assets\CyberneticWalrus\Warehouse_Props_Vol1\Render_Pipeline_Support" />
+     <None Include="Assets\WorldMaterialsFree\Shaders\WorldMatHDRPFree.shader" />
+     <None Include="Assets\_Issue\RMBR-12\Shader\DISSOLVE_Polygonmaker-AS-BasicPBR.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Multi Rocket Launcher" />
+     <Folder Include="Assets\_Issue\RMBR-58\Materials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons" />
+     <Folder Include="Assets\04.FBX\Tutorial" />
+     <Folder Include="Assets\_Issue\RMBR-13\Prefabs" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Shared\Profiles" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\BathroomTiles\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\_Issue\037\StandardPassthrough.shader" />
+     <Folder Include="Assets\Tiny Giant Studio\Modular 3D Text\Prefabs" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Shell.shader" />
+     <Folder Include="Assets\WorldMaterialsFree\Shaders" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Shaders\Heat Decal.shader" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
+     <Folder Include="Assets\Settings" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\_Source 1.2\Source" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Widgets\News Slider" />
+     <Folder Include="Assets\_Issue\047\Glitch\Prefab" />
+     <Folder Include="Assets\10.Audio\System" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Objects\Temple\Materials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Materials" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\Polygonmaker-AS-BasicPBR.shader" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Floor Zone\materials" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\PreviewPrefabs" />
+     <Folder Include="Assets\Testure\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\02.Scripts\Day2" />
+     <Folder Include="Assets\10.Audio\Sound\NIGHT" />
+     <None Include="Assets\WorldMaterialsFree\Shaders\WorldMatLiteFree.shader" />
+     <Folder Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)" />
+     <Folder Include="Assets\_Issue\RMBR-56" />
+     <Folder Include="Assets\_Old\Material" />
+     <Folder Include="Assets\10.Audio\Voice\이나_일반A\음성 변환" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Widgets\Socials" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle3\SnapInteractionAssets\Models" />
+     <Folder Include="Assets\01.Scenes\Night\NightScene1105" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\3\Bullet 6" />
+     <Folder Include="Assets\URPixel" />
+     <Folder Include="Assets\XR\Settings" />
+     <Folder Include="Assets\08.Animations\Tutorial" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Materials\Textures" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\Polygonmaker-AS-Skin Forward.shader" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\WoodenFlooring" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle3" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Plants\Plant3" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Shadows\Gradient" />
+     <Folder Include="Assets\XRI\Settings" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\PebbledGravel\Materials" />
+     <Folder Include="Assets\_Old\JMS\Script" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Weapons\Textures" />
+     <Folder Include="Assets\XR\Loaders" />
+     <Folder Include="Assets\09.Textures\Day2\Puzzle4" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Widgets\News Slider" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Cabinet" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\05.Materials\Day2" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Widgets\Socials" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Materials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Lightning Double Ball" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Modules\Models\Materials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Controllers" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\Regular\Scenes" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Materials" />
+     <Folder Include="Assets\_Issue\RMBR-12\Scenes" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Plants\Plant4" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Materials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Hexagon\64x" />
+     <Folder Include="Assets\CyberneticWalrus\Factory_Interior" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle3\Snap" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Placeholders\Background" />
+     <Folder Include="Assets\Samples\XR Interaction Toolkit\2.5.4" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Skybox" />
+     <Folder Include="Assets\09.Textures\Day1" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Fonts" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Shared\Materials" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\CoarseConcrete" />
+     <Folder Include="Assets\_Issue\RMBR-12\Animation" />
+     <Folder Include="Assets\Lunar Landscape 3D\Prefabs" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\capsule" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld" />
+     <Folder Include="Assets\_Old\JMS" />
+     <Folder Include="Assets\10.Audio\Sound\Day2\Puzzle5" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Door" />
+     <Folder Include="Assets\_Issue\RMBR-12\Texture" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Toxic.shader" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Placeholders\Profile" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Models" />
+     <None Include="Assets\WorldMaterialsFree\Shaders\WorldMatFree.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Scripts" />
+     <Folder Include="Assets\_Issue\RMBR-58\Animators" />
+     <Folder Include="Assets\10.Audio\Voice\이나_일반A" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Shadows" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\Steel" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Core" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Watch" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Meshes\Materials" />
+     <Folder Include="Assets\02.Scripts\Night\Boss" />
+     <Folder Include="Assets\08.Animations" />
+     <Folder Include="Assets\Ultimate Game Tools" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Textures\Projector" />
+     <Folder Include="Assets\HandGrabInteractableDataCollection" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep" />
+     <Folder Include="Assets\02.Scripts\System\UI" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Hexagon\128x" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Rocket Launcher" />
+     <Folder Include="Assets\05.Materials\Basic" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\RuinStoneBricks" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Placeholders" />
+     <Folder Include="Assets\02.Scripts\Day1" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Props" />
+     <Folder Include="Assets\02.Scripts\Night\Managers" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Prefabs" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\Panels\Chapter Panel" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\CableE" />
+     <Folder Include="Assets\_Issue\RMBR-12\Scripts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Localization\Languages" />
+     <Folder Include="Assets\_Issue\RMBR-12" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Rail Gun" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Progress Bar" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\eye-implant\source\eye_model" />
+     <Folder Include="Assets\Sci-Fi Base\Terrain\Textures" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Big Laser" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Oppy\textures" />
+     <Folder Include="Assets\Sci-Fi Base\Particles\Textures" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Gravity Gun" />
+     <Folder Include="Assets\_Issue\RMBR-57" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Dissolve Trail" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\Clothes" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util" />
+     <Folder Include="Assets\Sci-Fi Base\Scenes" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Textures\Steel\3" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Laser Gun" />
+     <Folder Include="Assets\02.Scripts" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Bullet 4" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Couch" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\_Source 1.2\Source\Weapons" />
+     <Folder Include="Assets\_Issue\022\Script" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Physic Materials" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\GrassClumps" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\3\Bullet 2" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\WavySand" />
+     <Folder Include="Assets\_Issue\014" />
+     <Folder Include="Assets\_Old\JMS\Script\CrossBowTest" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle3\SnapInteractionAssets" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Displacement Noise.shader" />
+     <Folder Include="Assets\_Issue\047\Glitch" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Shadows\Radial" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Placeholders\Logo" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Materials" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit" />
+     <Folder Include="Assets\_Issue\RMBR-12\Prefabs" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Rail Gun" />
+     <None Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Shaders\NL_VertexAnim.shader" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\blue-brain\textures" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\Noises" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Button" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Toxic Gun" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Acid" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Switch" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Melt Particle.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Electric Gun" />
+     <Folder Include="Assets\_Issue\RMBR-53\Volumes" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Samples" />
+     <Folder Include="Assets\02.Scripts\Night\Player" />
+     <None Include="Assets\MeshBaker\Resources\Shaders\AlbedoShader.shader" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\TwinBed" />
+     <Folder Include="Assets\01.Scenes\Night\NightScene" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files" />
+     <Folder Include="Assets\Tiny Giant Studio\Modular 3D Text\Setup Files" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Window" />
+     <Folder Include="Assets\Sci-Fi Base\Particles\Textures\ParticlesShaders\Subgraphs" />
+     <Folder Include="Assets\05.Materials\Day1" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\Regular\Scenes\Source\Animators for render" />
+     <Folder Include="Assets\_Issue\RMBR-53" />
+     <Folder Include="Assets\02.Scripts\Day2\Puzzle4" />
+     <Folder Include="Assets\10.Audio\Sound" />
+     <Folder Include="Assets\Tiny Giant Studio" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Audio" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Notification" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Window\Materials" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Clutter" />
+     <Folder Include="Assets\Lunar Landscape 3D\Resources\Geometry" />
+     <Folder Include="Assets\09.Textures\Day1\dirtytexture\Materials" />
+     <Folder Include="Assets\CyberneticWalrus\Warehouse_Props_Vol1" />
+     <None Include="Assets\MeshBaker\Release Notes.txt" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Unity Standard\ToonLit.shader" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Selectors" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\_Source 1.2" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Bullet Animated 3" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\CeilingLamp" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\HUD" />
+     <Folder Include="Assets\10.Audio\Sound\Tutorial" />
+     <Folder Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master" />
+     <None Include="Assets\02.Scripts\Night\Weapon\WeaponCollection.txt" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Textures\Steel" />
+     <Folder Include="Assets\_Issue\RMBR-58\Scripts" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\MeshBaker\Resources" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\SkyBox" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\Test Box" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\ClumpMud" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\URP" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Radial" />
+     <Folder Include="Assets\Tiny Giant Studio\Modular 3D Text\Sample Scenes\11 Modules Tutorial" />
+     <Folder Include="Assets\Sci-Fi Base\Scripts" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\DryRockyDirt" />
+     <Folder Include="Assets\Samples\Meta XR Interaction SDK OVR Samples\60.0.0\Example Scenes" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\Panels\Main Panel" />
+     <Folder Include="Assets\_Issue" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Prefabs" />
+     <Folder Include="Assets\02.Scripts\Night\Monster" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Laser.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Bullet Animated 1" />
+     <Folder Include="Assets\Gizmos" />
+     <Folder Include="Assets\12.Terrain" />
+     <Folder Include="Assets\15.ScriptableObject\TutorialImage" />
+     <Folder Include="Assets\_Issue\RMBR-15\Prefab" />
+     <None Include="Assets\Tiny Giant Studio\Modular 3D Text\Readme.txt" />
+     <Folder Include="Assets\02.Scripts\Day2\Puzzle5" />
+     <Folder Include="Assets\MeshBaker\Resources\Shaders" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Unity Standard" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Objects\Weapon\Materials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals" />
+     <Folder Include="Assets\05.Materials" />
+     <Folder Include="Assets\_Issue\RMBR-13\Scripts" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\3DModels" />
+     <Folder Include="Assets\Sci-Fi Base\Rocks\Models" />
+     <Folder Include="Assets\03.Prefabs\Day1\Puzzle1" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Modules" />
+     <Folder Include="Assets\_Issue\RMBR-12\Materials" />
+     <Folder Include="Assets\Tiny Giant Studio\Modular 3D Text" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Textures\Steel\4" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Lightning.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\CableA" />
+     <Folder Include="Assets\01.Scenes\Tutorial" />
+     <Folder Include="Assets\Tiny Giant Studio\Modular 3D Text\Prefabs\Examples" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\PostProcessingVolume" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Dissolve Noise.shader" />
+     <Folder Include="Assets\_Issue\RMBR-12\Shader" />
+     <Folder Include="Assets\Sci-Fi Base\Terrain\Layers" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Bullet Animated 5" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Objects\Temple" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Weapons" />
+     <Folder Include="Assets\_Issue\RMBR-58" />
+     <Folder Include="Assets\Sci-Fi Base\Prefabs" />
+     <Folder Include="Assets\WorldMaterialsFree\URPMaterials" />
+     <Folder Include="Assets\_Issue\RMBR-58\Scences" />
+     <Folder Include="Assets\03.Prefabs\Night" />
+     <Folder Include="Assets\_Issue\RMBR-13" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Bullet Animated 4" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Multi Spawn" />
+     <Folder Include="Assets\08.Animations\Day2" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Textures\Toxic" />
+     <None Include="Assets\Reach - Complete Sci-Fi UI\Read Me.txt" />
+     <Folder Include="Assets\04.FBX" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Sheets" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Source" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\screen" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Lightning Constant Additional" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Scenes" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\VFX" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Shelf" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Localization" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home" />
+     <Folder Include="Assets\_Issue\022\Materials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Lightning Gun V2" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\Settings" />
+     <Folder Include="Assets\03.Prefabs\Night\Weapon\Models" />
+     <Folder Include="Assets\WorldMaterialsFree\HDRPMaterials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Textures\Steel\Heavy" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\CableD" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Scenes\SciFiWeapons" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Animation" />
+     <None Include="Assets\MeshBaker\Resources\Shaders\UnlitWithAlpha.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\Regular\Scenes\Source" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\3\Bullet 5" />
+     <Folder Include="Assets\_Issue\RMBR-12\Assets" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\Indicators" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Scripts" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Editor Shaders" />
+     <Folder Include="Assets\XRI" />
+     <Folder Include="Assets\Testure" />
+     <Folder Include="Assets\_Issue\007" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\blue-brain\source" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Prefabs" />
+     <Folder Include="Assets\Sci-Fi Base\Scenes\Scene_2_Standard" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\PebbledGravel" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Source\Materials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Credits" />
+     <Folder Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice\Framework" />
+     <Folder Include="Assets\00.TestScene\NightScene1105" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Plants\Plant1" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Localization\Tables" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs" />
+     <Folder Include="Assets\_Issue\RMBR-58\Prefabs" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Radial\64px" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Shared" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\Polygonmaker-AS-Glass.shader" />
+     <Folder Include="Assets\Oculus" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect" />
+     <Folder Include="Assets\WorldMaterialsFree\Built-In_RPMaterials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Filters" />
+     <Folder Include="Assets\MeshBaker\MeshBakerWorkingFolder" />
+     <Folder Include="Assets\_Issue\RMBR-15\Scene" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\SMG" />
+     <Folder Include="Assets\_Issue\047\Glitch\Shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Switch" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Panels" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Particle Specular.shader" />
+     <Folder Include="Assets\09.Textures\Day1\dirtytexture" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Basic" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\sci fi Shotgun bullet" />
+     <Folder Include="Assets\_Issue\047\Glitch\UrpAsset" />
+     <Folder Include="Assets\CyberneticWalrus\Factory_Props_Vol1" />
+     <Folder Include="Assets\00.TestScene" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Plants\Plant2" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\Polygonmaker-AS-SkinCutout Forward Specular DoubleSided.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Dissolve Line" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Source\Textures" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Gravity Gun" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Input" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Modules\Textures" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\DesertCliffRock" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Oppy\animations" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\capsule\source" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Manager" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Big Laser" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Prefabs\UI" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\WallArt" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Shadows\Flat" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Models" />
+     <Folder Include="Assets\11.Sprites\DayOne" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\sci fi bullet" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Multi Rocket Launcher" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Scripts\UI" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\Panels\Splash Screen" />
+     <Folder Include="Assets\07.Shaders" />
+     <Folder Include="Assets\Sci-Fi Base\Rocks" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts" />
+     <Folder Include="Assets\13.Settings\Day1" />
+     <Folder Include="Assets\15.ScriptableObject" />
+     <Folder Include="Assets\08.Animations\Day2\Puzzle4" />
+     <Folder Include="Assets\Sci-Fi Base" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Lightning" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Terrains\TerrainAutoUpgrade" />
+     <Folder Include="Assets\_Issue\RMBR-15\Scripts" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\SRP" />
+     <Folder Include="Assets\Sci-Fi Base\Particles" />
+     <Folder Include="Assets\10.Audio" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Shotgun" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\Home Panel" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Textures" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Unity Standard\ToonBasic.shader" />
+     <Folder Include="Assets\CyberneticWalrus\Factory_Props_Vol1\Render_Pipeline_Support" />
+     <Folder Include="Assets\03.Prefabs\Night\Weapon\Models\Guns" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\BrushedIron" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Radial\256px" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Nav Mesh\NavMeshComponents\ToolkitScripts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Modal Window" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Input" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Laser Constant" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\StandardDoubleSided.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Props\Textures" />
+     <Folder Include="Assets\Sci-Fi Base\Scenes\Camera_anim" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Shaders" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Objects\Weapon" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\3\Bullet 3" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Oppy\materials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Toxic Sphere.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Shared\PhyMaterials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Electric Ball" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Controllers\Xbox" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Lightning Gun v2" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\BoxCardBoard" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets\Samples\Meta XR Interaction SDK OVR Samples\60.0.0\Tools" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Shaders\Triplanar.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Materials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Radial\512px" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Dropdown" />
+     <Folder Include="Assets\WorldMaterialsFree" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Objects" />
+     <Folder Include="Assets\10.Audio\Sound\Day1\Puzzle3" />
+     <Folder Include="Assets\02.Scripts\Camera" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Placeholders\Settings" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Weapons\Models\Materials" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\Polygonmaker-AS-SkinCutout Forward DoubleSided.shader" />
+     <Folder Include="Assets\02.Scripts\Night\Weapon" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\eye-implant\source" />
+     <Folder Include="Assets\Tiny Giant Studio\Modular 3D Text\Models" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\Regular" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Fx" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Particles" />
+     <Folder Include="Assets\05.Materials\Day1\ToonShader" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\SimpleRedBricks" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Fx\Materials" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Scene" />
+     <Folder Include="Assets\WorldMaterialsFree\URPMaterials\Mtrl_Toon" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Nav Mesh" />
+     <Folder Include="Assets\Lunar Landscape 3D\Resources" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Notification" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Shotgun 2" />
+     <Folder Include="Assets\Sci-fi Capsule\Prefabs" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Lightning Gun" />
+     <Folder Include="Assets\02.Scripts\Night" />
+     <Folder Include="Assets\XRI\Settings\Resources" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <Folder Include="Assets\_Old\KSA" />
+     <Folder Include="Assets\01.Scenes" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\PlainFabric" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Plasma Gun" />
+     <Folder Include="Assets\_Old" />
+     <Folder Include="Assets\14.ArtResourceAssets\Sci-fi_Shooter_Game_16bit" />
+     <Folder Include="Assets\_Old\JMS\Shader" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle1" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Terrains" />
+     <Folder Include="Assets\10.Audio\Voice\AudioSource" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\HUD" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Intersection.shader" />
+     <Folder Include="Assets\_Issue\RMBR-53\Prefab" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Shotgun" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream" />
+     <Folder Include="Assets\_Issue\RMBR-12\Scenes\NightSceneTest" />
+     <Folder Include="Assets\Sci-Fi Base\Models\Materials" />
+     <Folder Include="Assets\03.Prefabs\Day2" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Common" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Prefabs\Trails" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scenes" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Scenes\Source" />
+     <Folder Include="Assets\_Old\JMS\Animation" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Samples\RuntimePlacementAndUpdates" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Modal Window" />
+     <Folder Include="Assets\Tiny Giant Studio\Modular 3D Text\Materials" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Particle Channel Packed Unlit.shader" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Widgets" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Electric Double Ball Gun" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Controllers\DualSense" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Floor Zone\prefabs" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Liquid Sphere Errosion Unlit.shader" />
+     <Folder Include="Assets\Sci-Fi Base\HDRP" />
+     <Folder Include="Assets\01.Scenes\TestScene" />
+     <Folder Include="Assets\09.Textures" />
+     <Folder Include="Assets\03.Prefabs\Night\Weapon" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector" />
+     <Folder Include="Assets\CyberneticWalrus" />
+     <Folder Include="Assets\_Issue\035" />
+     <Folder Include="Assets\Samples\Meta XR Interaction SDK OVR Samples\60.0.0" />
+     <Folder Include="Assets\Samples\Meta XR Interaction SDK OVR Samples\60.0.0\Feature Scenes" />
+     <Folder Include="Assets\Sci-Fi Base\Models" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Blaster" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\Game Modes" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Settings" />
+     <Folder Include="Assets\03.Prefabs\Day1\Puzzle2" />
+     <None Include="Assets\MeshBaker\Resources\Shaders\NormalMapShaderSwizzle.shader" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Distortion.shader" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\Polygonmaker-AS-Skin Defered.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo" />
+     <Folder Include="Assets\02.Scripts\Tutorial" />
+     <None Include="Assets\Ultimate Game Tools\Fracturing\!Readme.txt" />
+     <Folder Include="Assets\13.Settings" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\CableClip" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Models" />
+     <Folder Include="Assets\_Issue\RMBR-57\Day1_Shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Effects" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Materials" />
+     <Folder Include="Assets\14.ArtResourceAssets" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Sprite Assets" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Textures" />
+     <Folder Include="Assets\03.Prefabs\Day1" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\UI Elements" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Electric Double Ball Gun" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\CableB" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\cybrex-synthetic-heart\source" />
+     <Folder Include="Assets\_Issue\RMBR-15\Scene\NightSceneTest" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Localization" />
+     <Folder Include="Assets\01.Scenes\Night" />
+     <Folder Include="Assets\09.Textures\Tutorial" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Characters" />
+     <Folder Include="Assets\10.Audio\Sound\Day1" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Scrollbar" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\HDRP" />
+     <Folder Include="Assets\Sci-fi Capsule" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\Polygonmaker-AS-Ice.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Laser" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Textures\Steel\2" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\Rope" />
+     <Folder Include="Assets\_MK" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\GrassGravel" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders 1.3.txt" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\scripts\Resizer" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\3\Bullet 1" />
+     <Folder Include="Assets\08.Animations\Night" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Events" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Effects\Explosions" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Laser Lance" />
+     <Folder Include="Assets\Sci-Fi Base\Scenes\Scene_Standard" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\04.FBX\Day1" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Materials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Trail" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Textures\Sunny1" />
+     <Folder Include="Assets\02.Scripts\Night\WeaponSO" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders" />
+     <Folder Include="Assets\MeshBaker\docs" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\Socials" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\Pennants" />
+     <Folder Include="Assets\Samples\XR Interaction Toolkit" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Particle Specular Transparent.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Watch\source" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Button" />
+     <None Include="Assets\MeshBaker\MeshBakerWorkingFolder\DONT_DELETE.txt" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Fire.shader" />
+     <Folder Include="Assets\01.Scenes\Day1" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
+     <Folder Include="Assets\01.Scenes\Design" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Objects\Terrain\Materials" />
+     <Folder Include="Assets\03.Prefabs\Day1\Puzzle3" />
+     <Folder Include="Assets\10.Audio\Music\Day1" />
+     <Folder Include="Assets\Tiny Giant Studio\Modular 3D Text\Sample Scenes" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Placeholders\Achievement" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Trail.shader" />
+     <Folder Include="Assets\_Old\JMS\Script\BurnDoc" />
+     <Folder Include="Assets\Ultimate Game Tools\MeshCombiner\Scripts" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Bullet 5" />
+     <Folder Include="Assets\11.Sprites\Tutorial" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scenes" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Editor Handlers" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Lamp" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Rendering" />
+     <Folder Include="Assets\10.Audio\Sound\Day1\Puzzle1" />
+     <Folder Include="Assets\Lunar Landscape 3D" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Storage" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
+     <Folder Include="Assets\Sci-Fi Base\Particles\Textures\ParticlesShaders" />
+     <Folder Include="Assets\_Old\KSA\Prefabs" />
+     <Folder Include="Assets\Oculus\VR" />
+     <Folder Include="Assets\10.Audio\Voice" />
+     <Folder Include="Assets\_Issue\RMBR-15" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts" />
+     <None Include="Assets\MeshBaker\README.txt" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\AgedDarkWood" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Animations" />
+     <Folder Include="Assets\Sci-Fi Base\Scenes\Postprocessing_Scene_Standard" />
+     <Folder Include="Assets\_Old\KSA\Models" />
+     <Folder Include="Assets\Samples\Meta XR Core SDK\60.0.0\Sample Scenes" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Objects\Materials" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\eye-implant" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Lightning" />
+     <Folder Include="Assets\_Issue\022\Prefabs" />
+     <Folder Include="Assets\Oculus\VR\Prefabs" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Misc" />
+     <Folder Include="Assets\06.Fonts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Widgets" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Scenes" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Nav Mesh\prefabs" />
+     <Folder Include="Assets\Sci-Fi Base\HDRP\Decals_Textures" />
+     <Folder Include="Assets\09.Textures\Day2" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Weapons\Models" />
+     <Folder Include="Assets\Samples\Meta XR Core SDK\60.0.0" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Animation\WeaponSelector" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Particle Channel Packed.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations" />
+     <Folder Include="Assets\10.Audio\Sound\Day1\Puzzle2" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\SMG" />
+     <Folder Include="Assets\02.Scripts\System" />
+     <Folder Include="Assets\Sci-Fi Base\Terrain" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Slider" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\FlameCharacter" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Materials" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle3\SnapInteractionAssets\Scripts" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Stool" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\3\Bullet 4" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Nav Mesh\materials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\HUD" />
+     <Folder Include="Assets\04.FBX\Night" />
+     <Folder Include="Assets\Resources" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Multi Spawn\materials" />
+     <Folder Include="Assets\_Issue\037" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Resources" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\_Issue\RMBR-56\images" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Shaders\Fire PBR.shader" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Textures\Terrain" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scenes\Demo" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Floor Zone" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle2" />
+     <Folder Include="Assets\03.Prefabs\System\Night" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Presets" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Weapons\Prefabs" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Presets\Controllers" />
+     <Folder Include="Assets\Samples\Meta XR Core SDK" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay" />
+     <Folder Include="Assets\_Issue\RMBR-53\Test001 1" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Door\Materials" />
+     <Folder Include="Assets\02.Scripts\Night\Objects" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Plants" />
+     <Folder Include="Assets\_Old\Design" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Plasma Grenade" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Source" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\3" />
+     <Folder Include="Assets\_Old\KSA\Material" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\HexBricks" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Misc" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Animation" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Bullet Animated 2" />
+     <Folder Include="Assets\Sci-Fi Base\Rocks\Textures" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\Panels" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Shaders\Polygonmaker-AS-SkinCutout Defered DoubleSided.shader" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Radial\32px" />
+     <Folder Include="Assets\Sci-Fi Base\Textures" />
+     <Folder Include="Assets\03.Prefabs\Night\Enemy" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Lightning Constant" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\cybrex-synthetic-heart" />
+     <Folder Include="Assets\03.Prefabs\Day2\Puzzle5" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\PlugsAndSwitches" />
+     <Folder Include="Assets\05.Materials\Day2\Puzzle4" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Shaders" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Flat" />
+     <None Include="Assets\WorldMaterialsFree\Shaders\WorldMatURPFree.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Lightning Gun" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Scenes" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle3\SnapInteractionAssets\Prefabs" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Hexagon" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Scripts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\HUD" />
+     <Folder Include="Assets\_Issue\RMBR-53\Scripts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\Achievements" />
+     <Folder Include="Assets\02.Scripts\Day1\Puzzle3\SnapInteractionAssets\Material" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Animations\Materials" />
+     <Folder Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\EzySlice" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Plasma gun" />
+     <None Include="Assets\Ultimate Game Tools\Fracturing\Editor Shaders\FracturingColored.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Gravity Grenade" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Textures\Toxic\Puddles" />
+     <Folder Include="Assets\_Issue\022\Test001" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Oppy\models" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Shaders" />
+     <None Include="Assets\Sci-Fi Base\!Readme_Info HDRP.txt" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells\Bullet 3" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Nav Mesh\Textures" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Assets\10.Audio\Music" />
+     <Folder Include="Assets\_Issue\047\Glitch\Scripts" />
+     <Folder Include="Assets\Sci-Fi Base\HDRP\Decals_Materials" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Controllers\Mouse" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders" />
+     <Folder Include="Assets\Sci-fi Capsule\Sources\blue-brain" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Modules\Models" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Textures\CableC" />
+     <Folder Include="Assets\_Issue\047" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Fonts" />
+     <Folder Include="Assets\XR" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Textures" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Textures\Terrain\BigTree_textures" />
+     <Folder Include="Assets\Gizmos\NOT_Lonely" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Prefabs" />
+     <Folder Include="Assets\Ultimate Game Tools\MeshCombiner" />
+     <Folder Include="Assets\03.Prefabs\System" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Watch\textures" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Blaster" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\scripts" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\CDT" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Textures" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Nav Mesh\NavMeshComponents" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Materials" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\DesertSandBrick" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Shadows\Special" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Shaders" />
+     <Folder Include="Assets\14.ArtResourceAssets\Solodream\ProjectionHologramEffect\Prefabs" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\10.Audio\Sound\Day2" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Oppy\prefabs" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Toxic Gun" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Timer" />
+     <Folder Include="Assets\03.Prefabs" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
+     <Folder Include="Assets\Samples" />
+     <None Include="Assets\_Issue\RMBR-58\Materials\UICustom.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\Regular\Scenes\Main_Profiles" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Textures" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Special" />
+     <Folder Include="Assets\03.Prefabs\Tutorial" />
+     <Folder Include="Assets\_Issue\RMBR-53\ezy-slice-master (2)\ezy-slice-master\Graphics" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Fusion" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\Spinners" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Electric Grenade" />
+     <Folder Include="Assets\00.TestScene\NightScene1111" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Gravity Gun" />
+     <Folder Include="Assets\_Issue\022" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\UI" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Oppy" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\14.ArtResourceAssets\Polygonmaker\Sci-Fi Series\Recon Robots\Polygonmaker - Shader\Unity Standard\ToonBasicOutline_modified.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Textures\Steel\Ricochet" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Audio" />
+     <Folder Include="Assets\11.Sprites" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Electric Gun" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Passthrough Relighting\Prefabs\UI" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\BathroomTiles" />
+     <None Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Shaders\NL_VertexAnim_tess.shader" />
+     <Folder Include="Assets\Sci-Fi Base\Rocks\Models\Materials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Scripts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Radial\1024px" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Rubbish" />
+     <Folder Include="Assets\CyberneticWalrus\Factory_Interior\Render_Pipeline_Support" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife" />
+     <Folder Include="Assets\Sci-Fi Base\Scenes\Scene_HDRP" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Muzzleflash.shader" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Fresnel.shader" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations\_Source 1.2\Source\Materials" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\MeshBaker" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\UI Elements\Horizontal Selector" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Table" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Objects\Terrain" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Samples\ObjectsPropagation" />
+     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Canvas" />
+     <Folder Include="Assets\14.ArtResourceAssets\TirgamesAssets\SciFiWorld\Modules\Prefabs" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\Sci-Fi Base\HDRP\HDRP_Settings" />
+     <Folder Include="Assets\09.Textures\Day1\Materials" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Multi Spawn\prefabs" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Icons\Navigation" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Demo\Textures\WeaponSelector\sci-fi\Preview\Rocket Launcher" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Animations\Rail Gun Helix" />
+     <None Include="Assets\Ultimate Game Tools\MeshCombiner\!Readme.txt" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Particles\Textures\Shells" />
+     <Folder Include="Assets\Sci-Fi Base\Scenes\overwiev" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\Chair" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Sci fi decals\Scripts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Animations\Panels" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Scripts\Achievements" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Meshes" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\Splash Screen" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Particles" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Textures" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Prefabs\UI Elements\Input Field" />
+     <Folder Include="Assets\Samples\Meta MR Utility Kit\60.0.0\Virtual Home\Furniture\RoundLamp" />
+     <Folder Include="Assets\_Old\KSA\Scripts" />
+     <Folder Include="Assets\14.ArtResourceAssets\Polygonmaker\Polygonmaker Animations" />
+     <Folder Include="Assets\Sci-Fi Base\Materials" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <Folder Include="Assets\Ultimate Game Tools\Fracturing\Scripts" />
+     <Folder Include="Assets\Reach - Complete Sci-Fi UI\Textures\Borders\Radial\128px" />
+     <Folder Include="Assets\14.ArtResourceAssets\NOT_Lonely\Advanced Cable Creator\Docs" />
+     <Folder Include="Assets\Samples\Meta XR Interaction SDK OVR Samples" />
+     <Folder Include="Assets\10.Audio\Voice\VoidBox_voice_VC_FX" />
+     <None Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Shaders\Toxic Ball.shader" />
+     <Folder Include="Assets\WorldMaterialsFree\Resource Files\BasketWeaveBricks" />
+     <Folder Include="Assets\14.ArtResourceAssets\Knife\PRO Effects Sci fi FX\Prefabs\Grenade Launcher" />
+     <Reference Include="UnityEngine">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ContentLoadModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PropertiesModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.EditorToolbarModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PresetsUIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneViewModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="M3D Font Creator - Runtime Only">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Assets\Plugins\Tiny Giant Studio\Modular 3D Text\Scripts\Font\M3D Font Creator - Runtime Only.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.GradleProject">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="AssistantCoreSDKEditor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\AssistantCoreSDKEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.XR.Editor.Tags">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.XR.Editor.Tags.dll</HintPath>
+     </Reference>
+     <Reference Include="VoiceSDK.Telemetry">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\VoiceSDK.Telemetry.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Wit.Dictation">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Wit.Dictation.dll</HintPath>
+     </Reference>
+     <Reference Include="MetaXrSimulator.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\MetaXrSimulator.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Formats.Fbx.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Platform.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Platform.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Interaction.OVR.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Interaction.OVR.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Oculus.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="xr.sdk.sharedassets.runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\xr.sdk.sharedassets.runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.VR.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.VR.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.WitAi">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.WitAi.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.XR.Audio.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.XR.Audio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Wit.Composer">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Wit.Composer.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.WitAi.TTS.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder.Base">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="VoiceSDK.Editor.Composer">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\VoiceSDK.Editor.Composer.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Platform">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Platform.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Voice.Hub.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Voice.Hub.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InputSystem.ForUI">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.VoiceSDK.Mic.WebGL">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.XR.Audio">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.XR.Audio.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Autodesk.Fbx.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.WitAI.Lib.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.WitAI.Lib.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Voice.Samples.WitResponseDebugger">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Voice.Samples.WitResponseDebugger.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.VR">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.VR.dll</HintPath>
+     </Reference>
+     <Reference Include="AssistantCoreSDKRuntime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\AssistantCoreSDKRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="VoiceSDK.Dictation.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\VoiceSDK.Dictation.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Management">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.VoiceSDK.Mic.Common">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualEffectGraph.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="AssistantVoiceCommandCommon">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\AssistantVoiceCommandCommon.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.WitAi.Conduit">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.WitAi.Conduit.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Wit.Composer.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Wit.Composer.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="VoiceSDK.Dictation.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\VoiceSDK.Dictation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Interaction.Samples.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Interaction.Samples.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Formats.Fbx.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualEffectGraph.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.CoreUtils">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Management.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="AssistantVoiceCommandCommon.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\AssistantVoiceCommandCommon.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Interaction.InterfaceSupport">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Interaction.InterfaceSupport.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.VR.Scripts.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Interaction.OVR">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Interaction.OVR.dll</HintPath>
+     </Reference>
+     <Reference Include="meta.xr.sdk.sharedassets.editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\meta.xr.sdk.sharedassets.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.CoreUtils.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.VoiceSDK.Mic.Other">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.Other.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.WitAi.Conduit.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.WitAi.Conduit.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Voice.Samples.WitShapes">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Voice.Samples.WitShapes.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Interaction.Toolkit">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Interaction">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Interaction.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.XR.Editor.Callbacks">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.XR.Editor.Callbacks.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.XR.BuildingBlocks">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.XR.BuildingBlocks.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Voice.VSDKHub.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Voice.VSDKHub.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.WitAi.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.WitAi.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Haptics">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Haptics.dll</HintPath>
+     </Reference>
+     <Reference Include="VoiceSDK.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\VoiceSDK.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="meta.xr.mrutilitykit">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\meta.xr.mrutilitykit.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SpatialTracking">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpatialTracking">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.WitAi.Lib">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.WitAi.Lib.dll</HintPath>
+     </Reference>
+     <Reference Include="VoiceSDK.Runtime.Composer">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\VoiceSDK.Runtime.Composer.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Voice.Hub.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Voice.Hub.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InputSystem">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.WitAi.TTS">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.WitAi.TTS.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Oculus">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Interaction.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Interaction.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Updater">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+     </Reference>
+     <Reference Include="Autodesk.Fbx">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.XR.BuildingBlocks.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.XR.BuildingBlocks.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Interaction.OVR.Samples">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Interaction.OVR.Samples.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Oculus.Haptics.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Oculus.Haptics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
+     <Reference Include="Meta.Wit.Dictation.Editor">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\Meta.Wit.Dictation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="VoiceSDK.Runtime">
+     <HintPath>D:\베어핸즈 엑스리얼\WarWithinWalls\Library\ScriptAssemblies\VoiceSDK.Runtime.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{79fe82d6-d05e-6c24-b1c7-9417c601ce54}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.MeshUtility.csproj">
+      <Project>{e8b4ecf8-77d2-cc74-a168-1f40e3c90851}</Project>
+      <Name>MK.MeshUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="VHierarchy.csproj">
+      <Project>{de6e894f-1dd3-0dbb-7252-6718d89b29ff}</Project>
+      <Name>VHierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="MeshBakerCore.csproj">
+      <Project>{b5b4bec5-68ca-09d9-d58d-0e5f0c1c7493}</Project>
+      <Name>MeshBakerCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{4d34e5ed-92d7-3b52-498e-9db390da7bd9}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{8360a823-d063-bbca-2ca0-e4bc1a81ade6}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.Toon.csproj">
+      <Project>{044f0cbc-dfca-db00-0bf8-e2f1d54963cc}</Project>
+      <Name>MK.Toon</Name>
+    </ProjectReference>
+    <ProjectReference Include="MeshBakerExamples.csproj">
+      <Project>{15a7b70d-eb56-a409-3290-68107bf9a537}</Project>
+      <Name>MeshBakerExamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="TGS_PackageImporter.csproj">
+      <Project>{a4b43f37-fd8c-273b-898d-b787d98baf97}</Project>
+      <Name>TGS_PackageImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.Toon.URP.Editor.csproj">
+      <Project>{1ad33f90-f6aa-7292-a0e5-20eee6c6bb6e}</Project>
+      <Name>MK.Toon.URP.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VFolders.csproj">
+      <Project>{36732979-d6a5-08ba-4a60-4038528e8e40}</Project>
+      <Name>VFolders</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{58d1ee1d-30fd-afa7-14bb-5542f1eff739}</Project>
+      <Name>UniTask.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.RampCreator.csproj">
+      <Project>{5ba6740f-192b-c055-309e-defa728f8281}</Project>
+      <Name>MK.RampCreator</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.Toon.URP.csproj">
+      <Project>{b132bef1-1cd5-7f1f-a1ff-c82201c04e5b}</Project>
+      <Name>MK.Toon.URP</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{3c7c9d4a-f23b-55a5-f71b-62f28af09ed2}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="MeshBakerEditor.csproj">
+      <Project>{a618d014-a585-9a14-4610-843354f4feeb}</Project>
+      <Name>MeshBakerEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.MKTextureChannelPacker.csproj">
+      <Project>{92beab66-78ea-30f5-21d2-c3f3fb478b5d}</Project>
+      <Name>MK.MKTextureChannelPacker</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
+      <Project>{755c958d-b9dc-e431-6afd-e0352c1706f4}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="MK.Toon.Editor.csproj">
+      <Project>{aff0b3e9-7749-f726-a77f-9debc7b18781}</Project>
+      <Name>MK.Toon.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{9c14adc5-aae8-f85a-cff8-0f7f464da282}</Project>
+      <Name>UniTask.DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="BakeryRuntimeAssembly.csproj">
+      <Project>{127ce68f-a028-5085-9dcb-efb16d9cd9f8}</Project>
+      <Name>BakeryRuntimeAssembly</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
