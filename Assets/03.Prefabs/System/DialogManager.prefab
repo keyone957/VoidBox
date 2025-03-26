@@ -1,0 +1,338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2229839347608090025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6500332922723785561}
+  - component: {fileID: 5549018271057888643}
+  m_Layer: 0
+  m_Name: DialogManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6500332922723785561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2229839347608090025}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5549018271057888643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2229839347608090025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877a37af3252e414a84b27f21873734c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testScriptLength: 0
+  cameraRig: {fileID: 0}
+  DialogWithSound: {fileID: 4033036206030794668, guid: 0b0964c804976ef48a366f52a914d566,
+    type: 3}
+  DialogNoSound: {fileID: 1101803576505783329, guid: d0a8a0d8ff3eb3a4991eaeb4eb3dd133,
+    type: 3}
+  dialogs:
+  - name: B1_1
+    text: "\uBBF8\uC548\uD55C\uB370, \uC790\uC138\uD55C \uAC74 \uC124\uBA85\uD560
+      \uC2DC\uAC04\uC774 \uC5C6\uC5B4.\n\uC9C0\uAE08\uC740 \uB0B4\uAC00 \uC2DC\uD0A4\uB294
+      \uB300\uB85C \uD574."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: 746067b5073b198459376dc62ea760ce,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 4e9c9bca752a4f24892ce886b488c12e, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: B1_2
+  - name: B1_2
+    text: "\uAE08\uACE0\uB97C \uC5F4\uC5B4 \uAC1C\uC870 VR \uD5E4\uB4DC\uC14B\uC744
+      \uAEBC\uB0B4\uC57C \uD574.\n\uC8FC\uC704\uC5D0\uC11C \uB2E8\uC11C\uB97C \uCC3E\uC544
+      \uAE08\uACE0 \uBE44\uBC00\uBC88\uD638\uB97C \uC54C\uC544\uB0B4."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: 8f85a29172f7eca439d15a37e0b1bf9c,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 841e589558178a94d8991cd36e072ac4, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: B1_3
+  - name: B1_3
+    text: "\uC8FC\uC704\uC5D0\uC11C \uB2E8\uC11C\uB97C \uCC3E\uC544 \uAE08\uACE0
+      \uBE44\uBC00\uBC88\uD638\uB97C \uC54C\uC544\uB0B4."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: 89777ee870714454bae9f4207b793dbf,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 6e56ac017809e9844920355155a80b8d, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: B2
+    text: "\uC5F4\uB9AC\uC9C0 \uC54A\uC544... \uB2E4\uC2DC \uC0DD\uAC01\uD574\uBD10."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 04f77c26ceaa9cd419971f0a04b3cede, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: B2H1
+    text: "\uC8FC\uBCC0\uC744 \uB458\uB7EC\uBD10... \uC22B\uC790\uAC00 \uBCF4\uC77C
+      \uAC70\uC57C."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 4af388185c33760449919dd5ee40b4c5, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: B2H2
+    text: "\uAE08\uACE0 \uB2E4\uC774\uC5BC\uACFC \uAC19\uC740 \uC0C9\uC758 \uC22B\uC790\uB97C
+      \uC785\uB825\uD574\uBCF4\uC790."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 53506fb14cd424b439e4d9f6c75b66c3, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: B3
+    text: "\uBC29\uAE08 \uB108\uAC00 \uCC59\uAE34 \uAC8C \uAC1C\uC870 VR \uD5E4\uB4DC\uC14B\uC774\uC57C.\n\uC9C0\uAE08\uBD80\uD130
+      \uADF8\uAC78 \uC228\uAE30\uB7EC \uAC08 \uAC70\uC57C."
+    hasSound: 0
+    voiceDub: {fileID: 4670282742482602979, guid: b4307838097d40b4b8ee3629ce356fc1,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: b929f58e75f2d7c4ca5b0da15b4338d9, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: B4
+  - name: B4
+    text: "\uC774 \uC18C\uB9AC\uB294... \uC81C\uAE38."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: 51d2bc41ab47e0a488a85185ca4a8d7c,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 403d9d59cd5e03b409ef4f770f132d06, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: C1_1
+  - name: C1_1
+    text: "\uC798 \uB4E4\uC5B4. \uC131\uC218\uAC00 \uBC29\uC5B4 \uC2DC\uC2A4\uD15C\uC744
+      \uB9C8\uBE44\uC2DC\uCF30\uC5B4."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: e4cff27ef2f2e914ca03343316ab7ac8,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 4bc36d667ab4c834a9faac83c97f0831, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: C1_2
+  - name: C1_2
+    text: "\uBAA8\uB2C8\uD130\uB97C \uBCF4\uACE0, \uC911\uC559 \uC2DC\uC2A4\uD15C\uC744
+      \uBCF4\uC548 \uC2DC\uC2A4\uD15C\uACFC \uC5F0\uACB0\uD574."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a48f0aa0ec480a84ba599c8c9144d1da,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 5e5c39210754cd342a1a2b773379d200, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: C1_3
+  - name: C1_3
+    text: "\uCEF4\uD4E8\uD130 \uC55E\uC5D0 \uC788\uB294 \uC870\uC774\uC2A4\uD2F1\uACFC
+      \uBC84\uD2BC\uC73C\uB85C \uC870\uC791\uD560 \uC218 \uC788\uC744 \uAC70\uC57C."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: b58c86706bcd69243bcd18b3aa68bbb7,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 7674038fb61a3cd478331ee879cea90b, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: C1_4
+  - name: C1_4
+    text: "\uBBF8\uC548, \uB9CE\uC774 \uD63C\uB780\uC2A4\uB7FD\uC9C0. \uD558\uC9C0\uB9CC
+      \uC0C1\uD669\uC774 \uC0C1\uD669\uC774\uB77C... \uD589\uC6B4\uC744 \uBE4C\uAC8C."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: d8fe6950c1361d44e8694008f9734af7,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 40941f6e10a15db4c89905d6e67148f9, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: C3_a_1
+    text: "...\uD574\uB0C8\uB2E4."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: 3290b7a63073b014a8a775071a9fc445,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 16dbfdfe9e83c9b498fbf1380e19a136, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: C3_a_2
+    text: "...\uC544\uC800\uC528\uB77C\uBA74 \uADF8\uB807\uAC8C \uD588\uC744 \uD14C\uB2C8\uAE4C."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: 3f8831f082a7a3e458d33d5397b5ae87,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 44cbd95785363b84dbb6908e28cdec18, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: D1
+  - name: C3_b_1
+    text: "\uC2DC\uAC04 \uB0B4\uC5D0 \uC5F0\uACB0\uD558\uC9C4 \uBABB\uD588\uC9C0\uB9CC...
+      \uAD1C\uCC2E\uC544."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: 20cd5e7478e30be49bc25f0a19511d93,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 35465216ede18224aa00e4638d04eb04, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: C3_b_2
+    text: "\uC790, \uC911\uC559 \uC2DC\uC2A4\uD15C\uAE4C\uC9C0 \uB3CC\uD30C\uB418\uAE30
+      \uC804\uC5D0 \uC5B4\uC11C \uAC1C\uC870 VR\uC744 \uC228\uAE30\uB7EC \uAC00\uC790."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: ca5b66de967c78e4da1236cdae57403a,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: c235b7f798758ff4db95ca8bbc7ecb2b, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: C3_b_3
+  - name: C3_b_3
+    text: "...\uC544\uC800\uC528\uB77C\uBA74 \uADF8\uB807\uAC8C \uD588\uC744 \uD14C\uB2C8\uAE4C."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: 1c7a86bb1e9920b4fbd0996b64eadd91,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: d3c27fdaad47a7f489ba2dbe5d39da75, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: D1
+  - name: D1
+    text: "\uC774\uC81C \uBE44\uBC00 \uACF5\uAC04\uC73C\uB85C \uAC08 \uBC29\uBC95\uC744
+      \uCC3E\uC544\uC57C \uD574"
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 2679253d0d52f9048a814b858148c885, type: 3}
+    scriptLength: 3
+    dialogAnchor: {fileID: 0}
+    nextscript: D2_1
+  - name: D2
+    text: "\uCEF4\uD4E8\uD130\uB791 CCTV \uD654\uBA74\uC774 \uBB54\uAC00 \uB2EC\uB77C\uC9C4
+      \uAC83 \uAC19\uC9C0 \uC54A\uC544?"
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: a0d62ac5b663c5f45810a76707791147, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: D2H1
+  - name: D2H1
+    text: "CCTV \uD654\uBA74\uC774 \uBB54\uAC00 \uC775\uC219\uD55C\uB370..."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 275f958a8c7294c4b81406d12c4f0fe6, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: D2H2
+  - name: D2H2
+    text: "\uCEF4\uD4E8\uD130\uC758 \uC5F0\uAD6C\uC77C\uC9C0\uB97C \uBCF4\uACE0,\n\uC624\uB978\uCABD
+      \uC120\uBC18\uC758 \uC7A5\uC2DD\uC744 \uBC30\uC5F4\uD574."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 92fd510b1b1b18c469e4c98e6fc9b5f7, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: D3
+    text: "\uC774 \uC21C\uC11C\uAC00 \uC544\uB2CC \uAC83 \uAC19\uC544. \uBC88\uD638\uB97C
+      \uC798 \uBD10\uBD10."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 1fa95506411b032459b8ebaf80010604, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: D4
+    text: "\uC798\uD588\uC5B4!"
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 87d56c05c57dabd4f99b99ef743d541b, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: E5
+  - name: D5
+    text: "\uBB34\uC2A8 \uC77C\uC774\uC9C0? \uAD50\uC2E0\uC774 \uB04A\uAE30\uB124.
+      \uC77C\uB2E8 \uD5E4\uB4DC\uC14B\uC744 \uBC97\uC5B4\uBD10."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 03d036e084f092d4a9f7b7d13fc1239c, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: E5
+    text: "\uC774\uC81C \uBE44\uBC00 \uACF5\uAC04\uC73C\uB85C \uAC00\uC11C..."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 3fc2df71893075c47ad55e16deec68cc, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: E6
+  - name: E6
+    text: "\uBB34\uC2A8 \uC77C\uC774\uC9C0? \uAD50\uC2E0\uC774 \uB04A\uAE30\uC796\uC544..."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 85082df8ad1e436419083f1843a21e3a, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: 
+  - name: A_4A
+    text: "\uC77C\uB2E8 \uCC45\uC0C1 \uC704\uC5D0 \uC544\uC800\uC528\uAC00 \uB193\uACE0
+      \uAC04 \uCD1D\uC774 \uC788\uC744 \uAC70\uC57C.\n\uADF8\uAC83\uBD80\uD130 \uCC59\uACA8."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: aa9ea051177fceb46880ccad397c0b76, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: A_4B
+  - name: A_4B
+    text: "\uB108\uAC00 \uB4E4\uACE0 \uAC08 \uC218 \uC788\uB294 \uBB3C\uAC74\uB4E4\uC740\n\uB4E4\uC5C8\uB2E4
+      \uB193\uC73C\uBA74 \uC778\uBCA4\uD1A0\uB9AC\uC5D0 \uB4E4\uC5B4\uAC08 \uAC70\uC57C."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: 4e3dbd988deb3ab4584d9306770f26a3, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: A_4C
+  - name: A_4C
+    text: "\uB2E4\uC2DC \uAEBC\uB0B4\uACE0 \uC2F6\uC744 \uB550,\n\uC190\uBAA9\uBC34\uB4DC\uC758
+      \uC778\uBCA4\uD1A0\uB9AC \uCC3D\uC5D0\uC11C \uC7A1\uC544\uC11C \uAEBC\uB0BC
+      \uC218 \uC788\uC5B4."
+    hasSound: 1
+    voiceDub: {fileID: 4670282742482602979, guid: a9b1d64f63ea5344a8a6a98a38633562,
+      type: 3}
+    voiceDubClip: {fileID: 8300000, guid: a39c98f132e57934f99933ca9491d842, type: 3}
+    scriptLength: 5
+    dialogAnchor: {fileID: 0}
+    nextscript: B1_1
+  systemMessages: []

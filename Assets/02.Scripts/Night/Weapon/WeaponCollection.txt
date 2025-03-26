@@ -1,0 +1,93 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class WeaponCollection : MonoBehaviour
+{
+    public static WeaponCollection instance;
+
+    [SerializeField] private Transform newWeaponPos;
+
+    private WeaponBase prevWeapon;
+    public WeaponBase currentWeapon;
+    
+    public LaserPointer pointer;    //각자 객체에?
+
+    [SerializeField] private List<WeaponBase> _weapons; //all weapons
+    public List<WeaponBase> weapons => _weapons;
+    [SerializeField ] private List<WeaponBase> availableWeapons = new List<WeaponBase>();
+
+    public WeaponTestUI weaponTestUI;   //추후 UIEvent로
+
+    private bool isSwitching = false;
+    public void Awake()
+    {
+        if (instance == null) instance = this;
+        else if (instance != null) Destroy(this);
+
+        Init("Pistol");
+    }
+    public void Init(string weaponName)
+    {
+        availableWeapons.Clear();
+
+        foreach (var w in weapons)
+        {
+            if (w.GetComponent<WeaponBase>().name == weaponName) availableWeapons.Add(w);
+            Debug.Log(w.name);
+            break;
+        }
+        weaponTestUI.UIUpdate();
+    }
+    public void Update()
+    {
+        if (!isSwitching)
+        {
+            if (OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick).x >= 0.5f)
+            {
+                Debug.Log("무기 교체 ++");
+                StartCoroutine(SwitchWeaponToStick(true));
+            }
+            else if (OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick).x <= -0.5f)
+            {
+                Debug.Log("무기 교체 --");
+                StartCoroutine(SwitchWeaponToStick(false));
+            }
+        }
+    }
+    public IEnumerator SwitchWeaponToStick(bool boolean)
+    {
+        isSwitching = true;
+        prevWeapon = currentWeapon;
+        var nextWeapon = new WeaponBase();
+        if (boolean)
+        {
+            nextWeapon = weapons.IndexOf(currentWeapon) == weapons.Count - 1 ? weapons[0] : weapons[weapons.IndexOf(currentWeapon) + 1];
+        }
+        else
+        {
+            nextWeapon = currentWeapon == weapons[0] ? weapons[weapons.Count - 1] : weapons[weapons.IndexOf(currentWeapon) - 1];
+        }
+        SwitchWeapon(nextWeapon);
+        yield return new WaitForSeconds(2f);
+        Debug.Log("endChangeWeapon");
+        isSwitching = false;
+    }
+    public void GainNewWeapon(WeaponBase weapon)
+    {
+        weapons.Add(weapon);
+    }
+    public void SwitchWeapon(WeaponBase weapon)
+    {
+        currentWeapon.transform.gameObject.SetActive(false);
+        currentWeapon = weapon;
+        currentWeapon.transform.gameObject.SetActive(true);
+        currentWeapon.transform.position = newWeaponPos.position;
+        pointer.bulletPoint = currentWeapon.bulletPoint;
+    }
+    public void ThrowWeapon(WeaponBase weapon)
+    {
+        weapons.Remove(weapon);
+        if (currentWeapon == weapon.transform) currentWeapon = weapons[0];
+    }
+}
