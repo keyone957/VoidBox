@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Issue/RMBR-56/TitleScene.unity
+    guid: aabb0bbb6bb09474eb9624579b45757f
+  - enabled: 1
+    path: Assets/01.Scenes/Tutorial/TutorialScene.unity
+    guid: ebf582b73bbb1cf41b1d2ef3e6e9b218
+  - enabled: 1
+    path: Assets/01.Scenes/Day1/Day1_Shader_NCA 1.unity
+    guid: ef1e13539506a724fa34c8a7c385583a
+  - enabled: 1
+    path: Assets/01.Scenes/Night/New_NightScene_XMC.unity
+    guid: ddc4e3461ce50c347988adcfb731ea42
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 00a02b93c2505064f8396efd7299e2ea,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1e95b803c84c18244a54ce81dbf68d9a,
+      type: 2}
