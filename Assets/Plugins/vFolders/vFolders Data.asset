@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb9c12a8c6c949f7af83a3d238359d0, type: 3}
+  m_Name: vFolders Data
+  m_EditorClassIdentifier: 
+  folderDatas_byGuid:
+    keys:
+    - f4ac7ec20423cf84e8989800b373e379
+    - 4d751ec74a628634f8cb3133c30e5cd5
+    - 8a6704aaa4bef344e95625f444e834b3
+    - 3b7b9914aa884904b9677056c6ab0ac9
+    - 2f4628c9a2e371a4b9dfd070561d9b3f
+    - 1cfc8876c0938bb4ebe771bd2baaea56
+    - c4bb810197bfc9b4aa73847f71cadaa8
+    - a97b9c64ebbc7e041a243efe6b0f95be
+    - 485360b5a4657d8468f916928703cc37
+    - b6177111cafb8ea4f9e9e789ce6b576a
+    - 37ffe542bf970a847b14b5b04e145beb
+    - db51fda47071d7a4fb530953a6d6dc0d
+    - dda114545cf9ffb48934cecaaf959fb6
+    - 09c4e6ba223fdc34bbdcfcdebad334bb
+    - 78e21c168b8d1324faa7cc0db79c5e5a
+    - 5ba6529397f0d4149a19e2fa1656378a
+    - 079f1ceba91eecb498b091763034c1a5
+    - c84c7deb3b229c34794fcf3026b5c54d
+    - e2926bd0fcdd62b45863f854723f23f8
+    - be1682a7992acff4ba7ca374c50752af
+    - 75e25db2f3c62c041ae164e2a8ee711d
+    - c41dea5f647f5e14993950b7520c1d28
+    - 1c36bbac70f6ce349a6d95c55cb2818d
+    - a718f2abc8fd5d5498a8087f89a66637
+    - 3200c9ff1a439bf4286a7d7386613d88
+    - a96c74d6de778ea47b5481b65c28c584
+    - e7db6b3d5c41119498e7ec13e32d7d27
+    - 0f4bd3cfcc2b5fc4ab357045a4e57759
+    - a4e02cbd0db2a1842b039826b9b9f546
+    - 3a26f091798028840a34ca06b4d4a685
+    - 1a4dc19c5b999a64f9e39a5d9744ad44
+    - e893ea8d5a8429b4cb9c19631b3cf3dd
+    - 841676e0ff4a61042a0a0d744b46bdcd
+    values:
+    - colorIndex: 1
+      iconNameOrGuid: AudioClip Icon
+    - colorIndex: 0
+      iconNameOrGuid: Prefab Icon
+    - colorIndex: 0
+      iconNameOrGuid: Prefab Icon
+    - colorIndex: 0
+      iconNameOrGuid: SceneAsset Icon
+    - colorIndex: 3
+      iconNameOrGuid: cs Script Icon
+    - colorIndex: 0
+      iconNameOrGuid: Shader Icon
+    - colorIndex: 0
+      iconNameOrGuid: ComputeShader Icon
+    - colorIndex: 0
+      iconNameOrGuid: Material Icon
+    - colorIndex: 0
+      iconNameOrGuid: PrefabModel Icon
+    - colorIndex: 0
+      iconNameOrGuid: Material Icon
+    - colorIndex: 0
+      iconNameOrGuid: Prefab Icon
+    - colorIndex: 0
+      iconNameOrGuid: cs Script Icon
+    - colorIndex: 0
+      iconNameOrGuid: AudioClip Icon
+    - colorIndex: 2
+      iconNameOrGuid: 
+    - colorIndex: 4
+      iconNameOrGuid: 
+    - colorIndex: 7
+      iconNameOrGuid: 
+    - colorIndex: 1
+      iconNameOrGuid: SceneAsset Icon
+    - colorIndex: 2
+      iconNameOrGuid: SceneAsset Icon
+    - colorIndex: 3
+      iconNameOrGuid: cs Script Icon
+    - colorIndex: 4
+      iconNameOrGuid: Prefab Icon
+    - colorIndex: 5
+      iconNameOrGuid: PrefabModel Icon
+    - colorIndex: 6
+      iconNameOrGuid: Material Icon
+    - colorIndex: 7
+      iconNameOrGuid: Font Icon
+    - colorIndex: 8
+      iconNameOrGuid: Shader Icon
+    - colorIndex: 9
+      iconNameOrGuid: AnimationClip Icon
+    - colorIndex: 10
+      iconNameOrGuid: Texture Icon
+    - colorIndex: 1
+      iconNameOrGuid: AudioClip Icon
+    - colorIndex: 2
+      iconNameOrGuid: RawImage Icon
+    - colorIndex: 3
+      iconNameOrGuid: Terrain Icon
+    - colorIndex: 10
+      iconNameOrGuid: 
+    - colorIndex: 4
+      iconNameOrGuid: Settings Icon
+    - colorIndex: 0
+      iconNameOrGuid: TextAsset Icon
+    - colorIndex: 0
+      iconNameOrGuid: Light Icon
