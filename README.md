@@ -14,9 +14,9 @@
 ## 프로젝트 소개
 ---
 
-[![image.png](image.png)](https://github.com/user-attachments/assets/dbda22af-ba1c-47c4-ad78-5069ed7938f4)
+![Image](https://github.com/user-attachments/assets/dbda22af-ba1c-47c4-ad78-5069ed7938f4)
 
-[![image.png](image%201.png)](https://github.com/user-attachments/assets/4356d2b6-959e-4e79-9ea0-efbae171bfbc)
+![Image](https://github.com/user-attachments/assets/4356d2b6-959e-4e79-9ea0-efbae171bfbc)
 
 ## 나의 역할
 
@@ -178,33 +178,33 @@
 
 ### [인트로 씬]
 
-[https://youtu.be/GOowSH8tOuY](https://youtu.be/GOowSH8tOuY)
+[인트로 씬 영상](https://youtu.be/GOowSH8tOuY)
 
 ### [낮 기믹]
 
-![베어핸즈.mp4_20250121_171741.gif](%25EB%25B2%25A0%25EC%2596%25B4%25ED%2595%25B8%25EC%25A6%2588.mp4_20250121_171741.gif)
+![Image](https://github.com/user-attachments/assets/448fc202-6a8b-4f8d-a8dc-b3c52a8860a1)
 
 낮 퍼즐 1 → 금고 돌리기
 
 맵에 숨겨져 있는 힌트를 찾아 금고의 비밀번호를 알아내 금고를 열어라!
 
-![베어핸즈.mp4_20250121_171907.gif](%25EB%25B2%25A0%25EC%2596%25B4%25ED%2595%25B8%25EC%25A6%2588.mp4_20250121_171907.gif)
+![Image](https://github.com/user-attachments/assets/f6bed3f7-2469-4ec4-ad4a-ebc493405b89)
 
 낮 퍼즐 2 → 보안 시스템 연결
 
 조이스틱과 버튼을 이용해서 컴퓨터에 있는 보안 시스템을 작동시켜 연결하자
 
-![베어핸즈.mp4_20250121_172227.gif](%25EB%25B2%25A0%25EC%2596%25B4%25ED%2595%25B8%25EC%25A6%2588.mp4_20250121_172227.gif)
+![Image](https://github.com/user-attachments/assets/b3874697-98c1-4d3a-91c0-606aa546de9c)
 
 낮 퍼즐 3→ 컴퓨터 화면에 있는 단서를 활용하여  상질물을 나열하여 기믹을 풀어보자
 
-[https://www.youtube.com/watch?v=uDfg89vevY4](https://www.youtube.com/watch?v=uDfg89vevY4)
+[낮 퍼즐 기믹](https://www.youtube.com/watch?v=uDfg89vevY4)
 
 ### [밤 MR+VR 환경 전투 씬]
 
-[https://youtu.be/jV8vliRP2kM](https://youtu.be/jV8vliRP2kM)
+[밤 전투씬 영상](https://youtu.be/jV8vliRP2kM)
 
-=⇒ 앞에서 다가오는 적들을 물리쳐서 게임을 클리어하라!
+⇒ 앞에서 다가오는 적들을 물리쳐서 게임을 클리어하라!
 
 ## 프로젝트 사용기술
 
